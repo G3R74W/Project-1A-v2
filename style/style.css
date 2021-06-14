@@ -1,0 +1,34 @@
+body{
+    margin:0;
+    padding: 0;
+    background-color: black;
+    font-family: arial, sans-serif;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+
+canvas{
+    width:100%;
+    height:100%;
+}
+
+.data{
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+}
+
+.data li{
+    display: inline-block;
+    box-sizing: border-box;
+    justify-content: center;
+    vertical-align: top;
+    margin-left: 300px;
+    color: cornsilk;
+    position: relative;
+}
+
+.data li:hover{
+    color: rgb(10, 228, 46);
+}
